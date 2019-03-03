@@ -71,5 +71,8 @@ The method name above has the following parts seperated by the underscore charac
 | `WhenTitleContainsNoIllegalCharacters` | `The Scenario being tested` |
 | `ReturnsAsIs` | `The expectation` |
 
-
+# YouTube Video - Unit Testing Re-Booted
 [![Unit Testing Rebooted](http://img.youtube.com/vi/OBoq3zkL8r0/0.jpg)](https://youtu.be/OBoq3zkL8r0)
+
+# Watch the Entire Unit Testing Re-Booted Playlist
+[![Unit Testing Re-Booted Playlist](http://img.youtube.com/vi/OBoq3zkL8r0/0.jpg)](https://www.youtube.com/watch?v=OBoq3zkL8r0&list=PLJ0hAqAAdnpCg1ZzaQIgh7VZAWC-C8qrx)
