@@ -48,19 +48,19 @@ So essentially, you're writing the minimum number of tests that:
 The test project already references the assembly and there is already one test scenario implemented. You need to figure out what other scenarios need to be tested by looking at, understanding and analyzing the requirements.
 
 ```C#
-        [TestMethod]
-        [TestCategory("ClassTest")]
-        public void SlugProducer_GetUrlSlug_WhenTitleContainsNoIllegalCharacters_ReturnsAsIs()
-        {
-            // Arrange
-            var expectedSlug = "abcdegfhijklmnopqrstuvwxyz0123456789";
+[TestMethod]
+[TestCategory("ClassTest")]
+public void SlugProducer_GetUrlSlug_WhenTitleContainsNoIllegalCharacters_ReturnsAsIs()
+{
+    // Arrange
+    var expectedSlug = "abcdegfhijklmnopqrstuvwxyz0123456789";
 
-            // Act
-            var actualSlug = SlugProducer.GetUrlSlug(expectedSlug);
+    // Act
+    var actualSlug = SlugProducer.GetUrlSlug(expectedSlug);
 
-            // Assert
-            Assert.AreEqual(expectedSlug, actualSlug, $"We were expecting the Url slug to be: {expectedSlug}, but found the actual Url slug to be {actualSlug}");
-        }
+    // Assert
+    Assert.AreEqual(expectedSlug, actualSlug, $"We were expecting the Url slug to be: {expectedSlug}, but found the actual Url slug to be {actualSlug}");
+}
 ```
 The method name above has the following parts seperated by the underscore character
 
