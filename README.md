@@ -66,8 +66,8 @@ The method name above has the following parts seperated by the underscore charac
 
 | Method Name Part | Purpose/Meaning |
 | --- | --- |
-| `SlugProducer` | `The of the class being tested` |
-| `GetUrlSlug` | `The method being tested` |
+| `SlugProducer` | `The name of the class being tested` |
+| `GetUrlSlug` | `The name of the method being tested` |
 | `WhenTitleContainsNoIllegalCharacters` | `The Scenario being tested` |
 | `ReturnsAsIs` | `The expectation` |
 
