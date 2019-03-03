@@ -70,3 +70,6 @@ The method name above has the following parts seperated by the underscore charac
 | `GetUrlSlug` | `The method being tested` |
 | `WhenTitleContainsNoIllegalCharacters` | `The Scenario being tested` |
 | `ReturnsAsIs` | `The expectation` |
+
+
+[![Unit Testing Rebooted](http://img.youtube.com/vi/OBoq3zkL8r0/0.jpg)](https://youtu.be/OBoq3zkL8r0)
