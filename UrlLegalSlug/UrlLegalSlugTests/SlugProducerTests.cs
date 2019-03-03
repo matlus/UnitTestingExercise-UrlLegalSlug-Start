@@ -9,7 +9,7 @@ namespace UrlLegalSlugTest
     {
         [TestMethod]
         [TestCategory("ClassTest")]
-        public void SlugProducer_GetUrlSlug_WhenUrlContainsNoIllegalCharacters_ReturnsAsIs()
+        public void SlugProducer_GetUrlSlug_WhenTitleContainsNoIllegalCharacters_ReturnsAsIs()
         {
             // Arrange
             var expectedSlug = "abcdegfhijklmnopqrstuvwxyz0123456789";
