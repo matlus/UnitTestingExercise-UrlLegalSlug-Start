@@ -19,7 +19,7 @@ If the resulting string starts with or ends with a dash then those dashes will b
 1. A through Z
 2. a through z
 3. 0 through 9
-and the dash (minus sign)
+4. Minus sign (-)
 
 ### Examples
 | Original string | Resulting Url Legal Slug |
